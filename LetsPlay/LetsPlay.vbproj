@@ -57,8 +57,7 @@
     <Reference Include="System.Web.Services" />
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
-  <ItemGroup>
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <Import Include="Microsoft.VisualBasic" />
     <Import Include="System" />
@@ -88,7 +87,7 @@
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
-    <Content Include="StyleSheet1.css" />
+    <Content Include="Images\schindler%27s.jpg" />
     <Content Include="Styles\Global.css" />
     <Content Include="Index.html" />
     <Content Include="packages.config" />
