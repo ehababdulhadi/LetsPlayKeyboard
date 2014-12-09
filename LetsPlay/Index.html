@@ -1,5 +1,5 @@
 ﻿<!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ar">
 <head>
     <title>Let's Play!</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,21 +8,86 @@
 </head>
 <body>
     <div class="container">
-        <div class="row page-header" id="header">
+        <div class="row page-header showBoarder" id="header">
             <div class="col-md-2">
                 <img src="Images/schindler's.jpg" width="180" height="119" style="border: 5px dashed black;" />
             </div>
-                <div class="col-md-10">
-                    <div class="text-info">
-                        <h1>Welcome!</h1>
-                        <small>This is a subtext!</small>
-                    </div>
-                    <p>This is a sample test!</p>
+            <div class="col-md-10">
+                <div class="text-info">
+                    <h1>Welcome!</h1>
+                    <small>This is a subtext!</small>
                 </div>
+                <p>This is a sample test!</p>
             </div>
+        </div>
          
         <div id="contentContainer" class="row">
-            <div id="topNavBar" class="dropdown">
+            <div id="topNavBar" class="col-md-12 showBoarder">
+                <div class="navbar">
+                    <div class="navbar-right">
+                        <ul class="nav">
+                            <li class="dropdown showBoarder navButtons">
+                                <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                                    <b class="caret"></b> أخرى
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="#">أخرى</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown showBoarder navButtons">
+                                <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                                    <b class="caret"></b> سؤال و جواب
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="#">أخرى</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown showBoarder navButtons">
+                                <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                                    <b class="caret"></b> أجهزه موسيقيه
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="#">Prod 2</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown showBoarder navButtons">
+                                <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                                    <b class="caret"></b> تمارين
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="#">Prod 2</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown showBoarder navButtons">
+                                <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                                    <b class="caret"></b> تيكنيك
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="#">Prod 2</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown showBoarder navButtons">
+                                <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                                    <b class="caret"></b> ألمقامات
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="#">Prod 2</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown showBoarder navButtons">
+                                <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                                    <b class="caret"></b> ألدورس الأساسيه
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="#">Prod 2</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!--<div id="topNavBar" class="dropdown">
                 <button type="button" class="btn dropdown-toggle" id="other" data-toggle="dropdown">
                     <span class="caret"></span>
                     أخرى
@@ -107,21 +172,21 @@
                     <li role="presentation">
                         <a role="menuitem" tabindex="-1" href="#">نظرية الموسيقى</a>
                     </li>
-                    <!--<li role="presentation" class="divider"></li>-->
+                    <li role="presentation" class="divider"></li>
                 </ul>
-            </div>
+            </div>-->
 
-            <div id="sideBar" class="col-md-3">
+            <div id="sideBar" class="col-md-3 showBoarder">
                 Side Bar
             </div>
-            <div id="content" class="col-md-9">
+            <div id="content" class="col-md-9 showBoarder">
                 Content
             </div>
         </div>
         </div>
     <script src="Scripts/jquery-1.9.0.min.js"></script>
     <script src="Scripts/bootstrap.min.js"></script>
-    <script src="Scripts/jquery-1.9.0.min.js"></script>
+    <!--<script src="Scripts/jquery-1.9.0.min.js"></script>-->
     <!--<script>
     $(function () {
         $(".dropdown-toggle").dropdown('toggle');
